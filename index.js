@@ -1,5 +1,6 @@
 const userNameInput = document.querySelector(".username");
 const button = document.querySelector(".button");
+const userCard = document.querySelector(".user-card");
 const imageContainer = document.querySelector(".img-wrapper");
 const userNameContainer = document.querySelector(".user-name");
 const realNameContainer = document.querySelector(".name");

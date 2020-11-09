@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #b6b5ee;
+  background-color: #ddbbcc;
   font-family: 'Lato', sans-serif;
 }
 
@@ -51,8 +51,8 @@ body .main-container .content-wrapper .form-wrapper .username::placeholder {
 }
 
 body .main-container .content-wrapper .form-wrapper .button {
-  background-color: #c6c6f2;
-  color: #7977e0;
+  background-color: #e4c9d6;
+  color: #c488a6;
   padding: 15px;
   border-radius: 5px;
   border: none;
@@ -62,14 +62,14 @@ body .main-container .content-wrapper .form-wrapper .button {
 }
 
 body .main-container .content-wrapper .form-wrapper .button:hover {
-  background-color: #bebdf0;
+  background-color: #e0c2d1;
 }
 
 body .main-container .content-wrapper .user-card {
   width: 100%;
   color: #FFF;
-  border: 5px solid #9998e7;
-  background-color: #a6a4ea;
+  border: 5px solid #d1a3ba;
+  background-color: #d6adc2;
   padding: 100px 60px 20px;
   text-align: center;
   border-radius: 5px;
@@ -89,11 +89,11 @@ body .main-container .content-wrapper .user-card .img-wrapper {
 body .main-container .content-wrapper .user-card .img-wrapper img {
   width: 100%;
   border-radius: 100px;
-  border: 5px solid #9998e7;
+  border: 5px solid #d1a3ba;
 }
 
 body .main-container .content-wrapper .user-card .img-wrapper img:hover {
-  border: 5px solid #8d8ce4;
+  border: 5px solid #cc99b3;
 }
 
 body .main-container .content-wrapper .user-card .user-name {
