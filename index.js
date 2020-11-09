@@ -11,6 +11,8 @@ const API_URL = "https://api.github.com/users/";
 
 
 const renderData = data => {
+
+    if (data) {
     const profilePictureUrl = data.avatar_url;
     const githubUserName = data.login;
     const realName = data.name;
@@ -25,6 +27,7 @@ const renderData = data => {
     reposContainer.innerHTML = repos;
     followersContainer.innerHTML = followers;
 }
+}
 
 const searchUser = () => {
     const userName = userNameInput.value;
@@ -37,7 +40,7 @@ const searchUser = () => {
             })
         })
         .catch( error => {
-            console.log(error)
+            console.log(error);
         });
     
         userNameInput.value = "";
