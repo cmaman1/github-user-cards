@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #00B9CE;
+  font-family: 'Lato', sans-serif;
+}
+
+body .main-container .content-wrapper {
+  max-width: 320px;
+  margin: 50px auto;
+}
+
+body .main-container .content-wrapper .form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+body .main-container .content-wrapper .form-wrapper .username {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+body .main-container .content-wrapper .form-wrapper .button {
+  background-color: #11E7FF;
+  color: #006B77;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+}
+
+body .main-container .content-wrapper .form-wrapper .button:hover {
+  background-color: #12dcf3;
+}
+
+body .main-container .content-wrapper .user-card {
+  width: 100%;
+  color: #FFF;
+  border: 5px solid #0099AA;
+  background-color: #00B0C3;
+  padding: 100px 60px 20px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+}
+
+body .main-container .content-wrapper .user-card .img-wrapper {
+  display: block;
+  max-width: 150px;
+  position: absolute;
+  top: -20%;
+  left: 25%;
+}
+
+body .main-container .content-wrapper .user-card .img-wrapper img {
+  width: 100%;
+  border-radius: 100px;
+  border: 5px solid #0099AA;
+}
+
+body .main-container .content-wrapper .user-card .img-wrapper img:hover {
+  border: 5px solid #008a99;
+}
+
+body .main-container .content-wrapper .user-card .user-name {
+  color: #FFF;
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+body .main-container .content-wrapper .user-card [class*="-wrapper"] {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+body .main-container .content-wrapper .user-card [class*="-wrapper"] .tag {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

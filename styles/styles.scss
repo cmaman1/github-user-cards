@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00B9CE;
+    font-family: 'Lato', sans-serif;
+    
+    .main-container {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // height: 100vh;
+
+        .content-wrapper {
+            max-width: 320px;
+            margin: 50px auto;
+            
+            .form-wrapper {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 100px;
+                width: 100%;
+
+                .username {
+                    border: none;
+                    padding: 15px;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                    font-size: 1.1rem;
+
+                }
+
+                .button {
+                    background-color: #11E7FF;
+                    color: #006B77;
+                    padding: 15px;
+                    border-radius: 5px;
+                    border: none;
+                    font-weight: 700;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 1.1rem;
+                }
+
+                .button:hover {
+                    background-color: #12dcf3;
+                }
+
+            }
+
+            .user-card {
+                width: 100%;
+                color: #FFF;
+                border: 5px solid #0099AA;
+                background-color: #00B0C3;
+                padding: 100px 60px 20px;
+                text-align: center;
+                border-radius: 5px;
+                position: relative;
+
+                .img-wrapper {
+                    display: block;
+                    max-width: 150px;
+                    position: absolute;
+                    top: -20%;
+                    left: 25%;
+
+                    img {
+                        width: 100%;
+                        border-radius: 100px;
+                        border: 5px solid #0099AA;
+                    }
+
+                    img:hover {
+                        border: 5px solid #008a99;
+                    }
+                }
+
+                .user-name {
+                    color: #FFF;
+                    font-size: 2rem;
+                    display: block;
+                    margin-bottom: 20px;
+                }
+                
+                [class*="-wrapper"] {
+                    font-size: 1.1rem;
+                    margin-bottom: 15px;
+
+                    
+                    .tag {
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}
