@@ -38,11 +38,15 @@ const searchUser = () => {
         })
         .catch( error => {
             console.log(error)
-        })
+        });
+    
+        userNameInput.value = "";
 }
 
 const handleEnterOnInput = (event) => {
-    if (event.keyCode == 13) {
+    if (event.which === 13 || event.keyCode === 13 || event.key === "Enter") {
+        event.preventDefault();
+
         searchUser();
     }
 }
