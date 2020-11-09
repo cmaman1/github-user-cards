@@ -1,19 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
+$primary-color : #b6b5ee;
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #00B9CE;
+    background-color: $primary-color;
     font-family: 'Lato', sans-serif;
     
     .main-container {
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // height: 100vh;
 
         .content-wrapper {
             max-width: 320px;
@@ -31,12 +28,16 @@ body {
                     border-radius: 5px;
                     margin-bottom: 10px;
                     font-size: 1.1rem;
+                }
+
+                .username::placeholder {
+                    font-family: 'Lato', sans-serif;
 
                 }
 
                 .button {
-                    background-color: #11E7FF;
-                    color: #006B77;
+                    background-color: lighten($primary-color, 4);
+                    color: darken($primary-color, 15);
                     padding: 15px;
                     border-radius: 5px;
                     border: none;
@@ -46,7 +47,7 @@ body {
                 }
 
                 .button:hover {
-                    background-color: #12dcf3;
+                    background-color: lighten($primary-color, 2);
                 }
 
             }
@@ -54,8 +55,8 @@ body {
             .user-card {
                 width: 100%;
                 color: #FFF;
-                border: 5px solid #0099AA;
-                background-color: #00B0C3;
+                border: 5px solid darken($primary-color, 7);
+                background-color: darken($primary-color, 4);
                 padding: 100px 60px 20px;
                 text-align: center;
                 border-radius: 5px;
@@ -65,17 +66,18 @@ body {
                     display: block;
                     max-width: 150px;
                     position: absolute;
-                    top: -20%;
-                    left: 25%;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
 
                     img {
                         width: 100%;
                         border-radius: 100px;
-                        border: 5px solid #0099AA;
+                        border: 5px solid darken($primary-color, 7);
                     }
 
                     img:hover {
-                        border: 5px solid #008a99;
+                        border: 5px solid darken($primary-color, 10);
                     }
                 }
 
